@@ -8,6 +8,7 @@ public class Poulet extends Volaille {
     {
         this.poids = poids;
         this.id = id;
+        this.prix = poids*prix_kilo;
     }
 
     public static void update_prix_kilo(double p)

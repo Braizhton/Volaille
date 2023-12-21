@@ -8,6 +8,7 @@ public class Canard extends Volaille {
     {
         this.poids = poids;
         this.id = id;
+        this.prix = poids*prix_kilo;
     }
 
     static void update_prix_kilo(double p)
