@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Saisissez le prix au kilo d'un poulet : ");
         Poulet.update_prix_kilo(scan.nextDouble());
         System.out.println("Saisissez le poids d'abattage en kilo d'un poulet : ");
-        Canard.set_poids_abattage(scan.nextDouble());
+        Poulet.set_poids_abattage(scan.nextDouble());
 
 
 

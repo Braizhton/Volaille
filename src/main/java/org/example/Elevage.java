@@ -53,9 +53,14 @@ public class Elevage {
             if (v.a_abattre())
             {
                 a_abattre.add(v);
-                elevage.remove(v);
             }
         }
+
+        for (Volaille v : a_abattre)
+        {
+            elevage.remove(v);
+        }
+
         return a_abattre;
     }
 }

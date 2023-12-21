@@ -11,12 +11,12 @@ public class Canard extends Volaille {
         this.prix = poids*prix_kilo;
     }
 
-    static void update_prix_kilo(double p)
+    public static void update_prix_kilo(double p)
     {
         prix_kilo = p;
     }
 
-    static void set_poids_abattage(double p)
+    public static void set_poids_abattage(double p)
     {
         poids_abattage = p;
     }

@@ -30,8 +30,8 @@ public abstract class Volaille {
 
     @Override
     public String toString() {
-        return "Volaille{" +
-                "poids=" + poids +
+        return this.getClass().getSimpleName() +
+                "{poids=" + poids +
                 ", id=" + id +
                 ", prix=" + prix +
                 '}';
