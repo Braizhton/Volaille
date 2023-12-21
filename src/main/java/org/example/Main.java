@@ -29,7 +29,7 @@ public class Main {
         Canard.set_poids_abattage(scan.nextDouble());
 
 
-        System.out.println("Les volailles à abattre vont raporter : " + mon_elevage.abattre_volailles() + "€ !");
+        System.out.println("Les volailles à abattre vont raporter : " + mon_elevage.evaluer_abattage() + "€ !");
         System.out.println("Les volailles à abattre sont : " + mon_elevage.abattre_volailles());
 
 
