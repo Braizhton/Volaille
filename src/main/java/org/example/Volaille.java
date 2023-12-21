@@ -27,4 +27,13 @@ public abstract class Volaille {
     {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "Volaille{" +
+                "poids=" + poids +
+                ", id=" + id +
+                ", prix=" + prix +
+                '}';
+    }
 }
