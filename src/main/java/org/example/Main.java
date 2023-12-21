@@ -2,6 +2,9 @@ package org.example;
 
 import java.util.Scanner;
 
+/**
+ * Classe principale simulant un élevage basique
+ */
 public class Main {
     public static void main(String[] args)
     {
@@ -31,8 +34,5 @@ public class Main {
 
         System.out.println("Les volailles à abattre vont raporter : " + mon_elevage.evaluer_abattage() + "€ !");
         System.out.println("Les volailles à abattre sont : " + mon_elevage.abattre_volailles());
-
-
-
     }
 }
